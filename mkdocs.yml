@@ -1,0 +1,8 @@
+site_name: Мой сайт
+nav:
+  - Главная: index.md
+  - О проекте: about.md
+  - Карта: map.md
+
+theme:
+  name: material
