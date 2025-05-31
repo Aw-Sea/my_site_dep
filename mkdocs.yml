@@ -3,8 +3,17 @@ nav:
   - Главная: index.md
   - О проекте: about.md
   - Карта: map.md
-
+  - Новости:
+    - blog/index.md
 theme:
   name: material
 
 site_url: https://github.com/Aw-Sea/my_site_dep.git
+
+plugins:
+  - blog:
+      post_dir: "posts"       # Папка с постами
+      pagination: true        # Включаем пагинацию
+      posts_per_page: 5       # 5 постов на странице (опционально)
+      create_archive: true    # Создаёт страницу со всеми постами
+      date_format: "YYYY-MM-DD" # Формат даты
