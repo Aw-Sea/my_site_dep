@@ -1,5 +1,6 @@
 backend:
   name: git-gateway
+  repo: aw-sea/my_site_dep  # Ваш репозиторий
   branch: main  # Имя ветки (main/master)
 
 media_folder: "docs/images"  # Папка для загрузки изображений
