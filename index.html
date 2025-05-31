@@ -481,8 +481,10 @@
 <li>Поддержка Markdown  </li>
 <li>Автоматическое обновление  </li>
 <li>Простота настройки  </li>
+<li><img alt="Описание изображения" src="/img/uploads/img1.jpg" />
+<img src="/img/uploads/img1.jpg" alt="Описание изображения" class="my-image">
+<a href="about/">О проекте</a>  </li>
 </ul>
-<p><a href="about/">О проекте</a>  </p>
 <h2 id="_2">Последние посты</h2>
 <p>{% for page in pages if "posts/" in page.url %}
 - <a href="{{ page.url }}">{{ page.meta.title }}</a><br />
