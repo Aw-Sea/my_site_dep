@@ -1,0 +1,29 @@
+backend:
+  name: github
+  repo: aw-sea/my_site_dep
+  branch: gh-pages
+  auth_type: implicit
+  site_domain: aw-sea.github.io
+
+media_folder: "docs/static/img/uploads"
+public_folder: "/static/img/uploads"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "home"
+        label: "Home Page"
+        file: "docs/index.md"
+        fields:
+          - { name: "title", label: "Title", widget: "string" }
+          - { name: "body", label: "Content", widget: "markdown" }
+
+  - name: "posts"
+    label: "Posts"
+    folder: "docs/_posts"
+    create: true
+    fields:
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "date", label: "Date", widget: "datetime" }
+      - { name: "body", label: "Content", widget: "markdown" }
