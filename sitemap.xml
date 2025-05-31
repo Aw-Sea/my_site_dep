@@ -2,14 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://github.com/Aw-Sea/my_site_dep.git/</loc>
-         <lastmod>2025-05-30</lastmod>
+         <lastmod>2025-05-31</lastmod>
     </url>
     <url>
          <loc>https://github.com/Aw-Sea/my_site_dep.git/about/</loc>
-         <lastmod>2025-05-30</lastmod>
+         <lastmod>2025-05-31</lastmod>
     </url>
     <url>
          <loc>https://github.com/Aw-Sea/my_site_dep.git/map/</loc>
-         <lastmod>2025-05-30</lastmod>
+         <lastmod>2025-05-31</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/Aw-Sea/my_site_dep.git/blog/</loc>
+         <lastmod>2025-05-31</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/Aw-Sea/my_site_dep.git/blog/2023/01/01/%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BE%D0%BA-1/</loc>
+         <lastmod>2025-05-31</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/Aw-Sea/my_site_dep.git/blog/2023/01/01/%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BE%D0%BA-2/</loc>
+         <lastmod>2025-05-31</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/Aw-Sea/my_site_dep.git/blog/archive/2023/</loc>
+         <lastmod>2025-05-31</lastmod>
     </url>
 </urlset>
