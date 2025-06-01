@@ -1,3 +1,10 @@
+<script>
+  if (window.location.hash.includes('confirmation_token')) {
+    window.location.href = '/#confirmation_token=' + 
+      window.location.hash.split('=')[1];
+  }
+</script>
+
 # Мой новый сайт на MkDocs  
 
 Добро пожаловать! Это пример сайта, созданного в PyCharm.  
