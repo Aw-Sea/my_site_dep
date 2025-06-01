@@ -4,6 +4,7 @@ backend:
   branch: gh-pages
   auth_type: implicit
   site_domain: aw-sea.github.io
+  app_id: "Ov23liDc6Jgu3GhGr0oV"  # Вставьте Client ID из OAuth App
 
 media_folder: "docs/static/img/uploads"
 public_folder: "/static/img/uploads"
