@@ -474,6 +474,13 @@
 
 
 
+<script>
+  if (window.location.hash.includes('confirmation_token')) {
+    window.location.href = '/#confirmation_token=' + 
+      window.location.hash.split('=')[1];
+  }
+</script>
+
 <h1 id="mkdocs">Мой новый сайт на MkDocs</h1>
 <p>Добро пожаловать! Это пример сайта, созданного в PyCharm.  </p>
 <h2 id="_1">Возможности</h2>
