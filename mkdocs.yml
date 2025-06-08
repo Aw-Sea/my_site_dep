@@ -2,9 +2,14 @@ site_name: Мой сайт
 nav:
   - Главная: index.md
   - Новости: blog/index.md
-  - О проекте: about.md
-  - Карта: map.md
   - Памятники и памятные места: monuments.md
+  - Военные захоронения: wargraves.md
+  - Лица Победы: facesofvictory.md
+  - Герои СВО: heroes.md
+  - Туристический маршрут: map.md
+  - Видео история: videohistory.md
+  - О проекте: about.md
+
 
 theme:
   name: material
