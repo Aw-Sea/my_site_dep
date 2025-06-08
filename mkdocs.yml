@@ -1,10 +1,10 @@
 site_name: Мой сайт
 nav:
   - Главная: index.md
+  - Новости: blog/index.md
   - О проекте: about.md
   - Карта: map.md
-  - Новости:
-    - blog/index.md
+
 theme:
   name: material
 
