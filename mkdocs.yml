@@ -4,6 +4,7 @@ nav:
   - Новости: blog/index.md
   - О проекте: about.md
   - Карта: map.md
+  - Памятники и памятные места: monuments.md
 
 theme:
   name: material
