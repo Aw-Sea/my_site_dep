@@ -1,4 +1,4 @@
-site_name: Мой сайт
+site_name:  Жить! Помнить! Знать!
 nav:
   - Главная: index.md
   - Новости: blog/index.md
