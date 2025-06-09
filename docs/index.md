@@ -1,7 +1,7 @@
 # Жить! Помнить! Знать!
 
 <div style="text-align: center; margin-bottom: 40px;">
-  <img src="/static/img/logo.jpg" alt="Логотип" style="max-width: 200px;">
+  <img src="static/img/logo.jpg" alt="Логотип" style="max-width: 200px;">
   <p style="font-size: 1.2em; color: #d32f2f;">Сохранение памяти о героях Великой Отечественной войны и Специальной военной операции</p>
 </div>
 
@@ -18,14 +18,14 @@
     </ul>
   </div>
   <div class="grid-item">
-    <img src="/static/img/rodina.jpg" alt="Родина-мать" style="border-radius: 8px; max-width: 100%;">
+    <img src="static/img/rodina.jpg" alt="Родина-мать" style="border-radius: 8px; max-width: 100%;">
   </div>
 </div>
 
 ## Основные разделы
 
 <div class="grid cards" style="margin-top: 20px;">
-  <div class="grid-item" onclick="location.href='news';" style="cursor: pointer;">
+  <div class="grid-item" onclick="location.href='blog';" style="cursor: pointer;">
     <h3><i class="fas fa-newspaper"></i> Новости</h3>
     <p>Актуальные события, мероприятия и публикации</p>
   </div>
@@ -35,32 +35,32 @@
     <p>Мемориалы Великой Отечественной войны и СВО с описанием и фотографиями</p>
   </div>
 
-  <div class="grid-item" onclick="location.href='burials';" style="cursor: pointer;">
+  <div class="grid-item" onclick="location.href='wargraves';" style="cursor: pointer;">
     <h3><i class="fas fa-cross"></i> Военные захоронения</h3>
     <p>База данных мест захоронений воинов с возможностью поиска</p>
   </div>
 
-  <div class="grid-item" onclick="location.href='heroes';" style="cursor: pointer;">
+  <div class="grid-item" onclick="location.href='facesofvictory';" style="cursor: pointer;">
     <h3><i class="fas fa-star"></i> Лица Победы</h3>
     <p>Истории ветеранов Великой Отечественной войны</p>
   </div>
 
-  <div class="grid-item" onclick="location.href='modern_heroes';" style="cursor: pointer;">
+  <div class="grid-item" onclick="location.href='heroes';" style="cursor: pointer;">
     <h3><i class="fas fa-medal"></i> Герои СВО</h3>
     <p>Подвиги участников Специальной военной операции</p>
   </div>
 
-  <div class="grid-item" onclick="location.href='penza_route';" style="cursor: pointer;">
+  <div class="grid-item" onclick="location.href='map';" style="cursor: pointer;">
     <h3><i class="fas fa-route"></i> Туристический маршрут "Пенза"</h3>
     <p>Интерактивная карта памятных мест Пензенской области</p>
   </div>
 
-  <div class="grid-item" onclick="location.href='video';" style="cursor: pointer;">
+  <div class="grid-item" onclick="location.href='videohistory';" style="cursor: pointer;">
     <h3><i class="fas fa-video"></i> Видеоистория</h3>
     <p>Документальные фильмы и интервью с ветеранами</p>
   </div>
 
-  <div class="grid-item" onclick="location.href='team';" style="cursor: pointer;">
+  <div class="grid-item" onclick="location.href='about';" style="cursor: pointer;">
     <h3><i class="fas fa-users"></i> Наша команда</h3>
     <p>Организаторы проекта и волонтеры</p>
   </div>
